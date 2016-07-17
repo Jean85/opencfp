@@ -43,6 +43,7 @@ class Application extends SilexApplication
         parent::__construct();
 
         $this['path'] = $basePath;
+
         $this['env'] = $environment;
         $this['debug'] = true;
 
